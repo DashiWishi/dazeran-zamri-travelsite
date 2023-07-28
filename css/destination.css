@@ -1,0 +1,69 @@
+.itinerary-cards--hawaii {
+    background-image: url(../assets/images/hawaii.jpg);
+    background-size: cover; /* need to fix the image size */
+}
+
+.itinerary-cards--iceland {
+    background-image: url(../assets/images/iceland.jpg);
+    background-size: cover; /* need to fix the image size */
+}
+
+.itinerary-cards--greece {
+    background-image: url(../assets/images/greece.jpg);
+    background-size: cover; /* need to fix the image size */
+}
+
+.itinerary-cards__container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 9rem;
+}
+
+.itinerary-cards__days {
+    background-color: #FFFFFF;
+    flex-grow: .25;
+    margin-bottom: 6rem;
+    border-radius: 2%;
+    padding: 1rem;
+}
+
+.itinerary-cards__days > p {
+    text-align: center;
+    border-bottom: solid 0.15rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.itinerary-cards--hawaii > h1 {
+    padding: 3rem 5rem;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.itinerary-cards--iceland > h1 {
+    padding: 3rem 5rem;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.itinerary-cards--greece > h1 {
+    padding: 3rem 5rem;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.itinerary-cards__activities {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.itinerary-cards__activities > div {
+    padding: 1rem;
+    margin: .5rem 0;
+    background-color: #FEFAF5;
+}
+
+.itinerary-cards__activities > div:last-child {
+    margin-bottom: 3rem;
+}
