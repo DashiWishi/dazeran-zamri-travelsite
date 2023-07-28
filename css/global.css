@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.nav-bar__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 5rem;
+    background-color: #ffffff;
+}
+
+.nav-bar__list > li {
+    display: inline-block;
+    padding: 0 .5rem;
+    /* how to not change the font color after visited? */
+}
+
+.nav-bar__wordmark {
+    color: #335576;
+    font-weight: 600; /* how to make it lighter? */
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer__container {
+    background-color: #fefaf5;
+    display: flex;
+    padding: 3rem 8rem;
+    justify-content: space-between;
+}
+
+.footer-days__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title--color,.footer__text--format {
+    color: #335576;
+}
+
+.footer__text--format {
+    padding-top: .5rem; /* its not applying padding on the <a> for email -- fixed below */
+}
+
+.footer__contact > a {
+    display: inline-block;
+}
+
+.footer__subtitle--format {
+    color: #db7a4e;
+    font-size: .5rem;
+    padding-top: 1.5rem;
+}
+
+.footer__icon {
+    scale: .4; /* how to align to left */
+}
+
+.footer__hours {
+    flex-grow: .3;
+}
+
+.footer__social > h3 {
+    margin-bottom: 1rem;
+}
