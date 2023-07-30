@@ -21,10 +21,7 @@
 
 .hero__image {
     width: 65%;
-}
-
-h2 {
-    font-size: 2rem;
+    object-fit: contain;
 }
 
 .hero__container > div:last-child {
@@ -64,8 +61,9 @@ article {
     height: 25rem;
     position: relative;
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, .2); /* 1px solid black with an opacity of 20% */
+    border: 1px solid rgba(0, 0, 0, .2);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);
+    margin: 1rem;
 }
 
 article > p {
@@ -90,3 +88,16 @@ article > p {
     background-image: url(../assets/images/greece.jpg);
     background-size: cover;
 }
+
+.recommendations-card--hover:hover {
+    border: solid 1px #FFFFFF;
+    opacity: 0.7;
+    transition: all .3s ease-in;
+}
+
+@media only screen and (max-width: 768px) {
+    .recommendations__container {
+        flex-direction: column;
+        align-items: center;
+    }
+  }

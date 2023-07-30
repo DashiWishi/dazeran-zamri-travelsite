@@ -1,18 +1,18 @@
 .itinerary-cards--hawaii {
     background-image: url(../assets/images/hawaii.jpg);
-    background-size: cover; /* need to fix the image size */
+    background-size: cover;
     background-position: center;
 }
 
 .itinerary-cards--iceland {
     background-image: url(../assets/images/iceland.jpg);
-    background-size: cover; /* need to fix the image size */
+    background-size: cover;
     background-position: center;
 }
 
 .itinerary-cards--greece {
     background-image: url(../assets/images/greece.jpg);
-    background-size: cover; /* need to fix the image size */
+    background-size: cover;
     background-position: center;
 }
 
@@ -37,24 +37,6 @@
     font-weight: 600;
 }
 
-.itinerary-cards--hawaii > h1 {
-    padding: 3rem 5rem;
-    font-size: 3rem;
-    color: #FFFFFF;
-}
-
-.itinerary-cards--iceland > h1 {
-    padding: 3rem 5rem;
-    font-size: 3rem;
-    color: #FFFFFF;
-}
-
-.itinerary-cards--greece > h1 {
-    padding: 3rem 5rem;
-    font-size: 3rem;
-    color: #FFFFFF;
-}
-
 .itinerary-cards__activities {
     text-align: center;
 }
@@ -72,4 +54,17 @@
     background-color: #FEFAF5;
     padding: 1rem 0;
     margin: 1rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .itinerary-cards__container {
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .itinerary-cards__container {
+        flex-direction: column;
+        margin: 1rem;
+    }
 }
