@@ -53,17 +53,20 @@
 }
 
 .itinerary-cards__activities {
-    display: flex;
-    flex-direction: column;
     text-align: center;
 }
 
-.itinerary-cards__activities > div {
-    padding: 1rem;
-    margin: .5rem 0;
-    background-color: #FEFAF5;
+.itinerary-cards__activities > ul > li:first-child {
+    margin-top: 2rem;
 }
 
-.itinerary-cards__activities > div:last-child {
+.itinerary-cards__activities > ul > li:last-child {
     margin-bottom: 3rem;
+}
+
+.itinerary-cards__activities > ul > li {
+    display: block;
+    background-color: #FEFAF5;
+    padding: 1rem 0;
+    margin: 1rem 0;
 }

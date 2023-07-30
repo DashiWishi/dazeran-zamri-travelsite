@@ -1,3 +1,51 @@
+.hero__container {
+    display: flex;
+    background-color: #FEFAF5;
+    padding: 5rem 0;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+    justify-content: center;
+}
+
+.hero__text > div {
+    padding: 1rem 0;
+}
+
+.hero__text--format {
+    color: #335576;
+}
+
+.hero__image {
+    width: 65%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.hero__container > div:last-child {
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+}
+
+.hero__text > div:last-child {
+    width: 12rem;
+    height: 1rem;
+    background-color: #Db7A4E;
+    text-align: center;
+    margin-top: 1.5rem;
+    border-radius: 25px;
+}
+
+.hero__text > div > a {
+    color: #FFFFFF;
+}
+
 .recommendations > h3 {
     color: #335576;
     padding: 3rem 5rem;

@@ -17,6 +17,8 @@ body {
     justify-content: space-between;
     margin: 1rem 5rem;
     background-color: #ffffff;
+    position: sticky; /* make the nav bar sticky */
+    top: 0;
 }
 
 .nav-bar__list > li {
