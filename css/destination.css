@@ -1,16 +1,19 @@
 .itinerary-cards--hawaii {
     background-image: url(../assets/images/hawaii.jpg);
     background-size: cover; /* need to fix the image size */
+    background-position: center;
 }
 
 .itinerary-cards--iceland {
     background-image: url(../assets/images/iceland.jpg);
     background-size: cover; /* need to fix the image size */
+    background-position: center;
 }
 
 .itinerary-cards--greece {
     background-image: url(../assets/images/greece.jpg);
     background-size: cover; /* need to fix the image size */
+    background-position: center;
 }
 
 .itinerary-cards__container {
